@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EasyVizio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body >
+        
+            <div id="navbar" >
+              <img src="logo.png" alt="logo"/> <a href="index.html">EasyVizio</a>
+              <div id="navbar-right">
+                <a class="active" href="#">Nos Offres</a>
+                <a href="#">Fonctionnalités</a>
+                <a href="#">Tutoriels</a>
+                <a href="#">Contact</a>
+                <input type="submit" id='submit' value='CONNEXION' >
+              </div>
+            </div>
+              
+      <div class="container"id='titre'>
+        <h1>EASYVIZIO MEDIUM</h1>
+      </div>
+      <div  id="choix">
+      <div class="row">
+        <div class="col-12">
+          <p id="choisir">Choisissez vos options</br> 
+              <form method="post" id="form">
+                <label for="paiement">Fréquence de paiement</label></br>
+                <select name="paiement" id="paiement">
+                  <option value="mensuel">Mensuel</option>
+                  <option value="annuel">Annuel</option>
+                </select>
+             
+        </p>
+         
+         <p>
+            <label for="engagement">Engagement</label></br>
+            <select name="engagement" id="engagement">
+              <option value="1 an">1 an</option>
+              <option value="2 ans">2 ans</option>
+            </select>
+          </p>
+          <p> Quantité</br>
+            <input type="number" id="number"/>
+          </p>
+          <p><input id="panier" type="submit" value="Ajouter au panier" name="Submit"></p>
+           
+          </form>
+    </p>
+        
+        </div>
+      </div>
+      </div>
+      <div class="container" id="text">
+      <div>
+        <h3>DESCRIPTION</h3>
+        <h2>EasyVizion Medium</h2>
+        <p>
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          
+        </p>
+      
+      </div>
+      
+      <div class="row" class="image">
+          <div class="col-6">
+              <img src="ordi.jpg" alt="ordi" onclick="openModal();currentSlide(1)"class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="tel.jpg" alt="tel" onclick="openModal();currentSlide(1)"class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="images.jpg" alt="images" onclick="openModal();currentSlide(1)"class="hover-shadow cursor">
+          </div>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <img src="ordi.jpg" >
+          </div>
+          <div class="mySlides">
+            <img src="tel.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="images.jpg">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="column">
+            <img class="cursor" src="ordi.jpg"  onclick="currentSlide(1)" alt="ordi">
+          </div>
+          <div class="column">
+            <img class="cursor" src="tel.jpg"  onclick="currentSlide(2)" alt="tel">
+          </div>
+          <div class="column">
+            <img class="cursor"src="images.jpg"  onclick="currentSlide(3)" alt="images">
+          </div>
+
+      </div> 
+    </div>   
+      <div>
+        <h3>UNE QUALITE DE SERVICE IRREPROCHABLE</h3>
+        <p>
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus,</br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus,</br> 
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+          Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+          ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+          
+        </p>
+      </div>
+      <div>
+        <h3>FACILITE D'USAGE ET TERMINAUX COMPATIBLES</h3>
+        <p>
+          <ul>
+            <li>Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+              Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+              ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+              Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+              Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+              ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+              </li>
+              <li>
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+              </li>  
+              
+          </ul>
+        </p>
+      </div>
+      <div>
+        <h3>GESTION ET COLLABORATION</h3>
+          <ul>
+              <li>
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+              </li>
+              <li>
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+                Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+                Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus, </br>
+                ratione non earum natus laboriosam aliquam esse ea pariatur quod deleniti quae!
+              </li>
+          </ul>
+      </div>
+      <div>
+        <h3>SECURITE ET CONFIDENTIALITE</h3>
+          <p>Lorem ipsum dlior sit amet consectetur adipisicing elit. </br>
+            Perspiciatis dliores quibusdam similique mlilitia rerum omnis odit eveniet dlioribus
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.</br>
+              Lorem ipsum dlior sit amet consectetur adipisicing elit.
+            </li>
+          </ul>
+      </div>
+      </div>
+
+        
+            <footer>
+              EasyBroadcast2017
+            </footer>
+            <script src="js.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
